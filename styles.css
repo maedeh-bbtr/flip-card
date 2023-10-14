@@ -31,7 +31,6 @@
     transition: all 2s ease;
     transform-style: preserve-3d;
     backface-visibility: hidden;
-    transform: perspective(500px) rotateY(0) ;
   }
   .box.front {
     background-color: orange;
@@ -50,7 +49,6 @@
 
 
   .box h2 {
-    text-transform: uppercase;
     color: white;
     font-size: 2em;
     transform: perspective(500px) translateZ(50px);
